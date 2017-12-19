@@ -8,7 +8,6 @@ A simple RESTful API that allows the user to add text memos or pictures of writt
 
 * Add Plain Text Content
 * Attach an image (Optional)
-METADATA:
 * With: The name of the participant in the meeting.
 * Date: Date when the meeting took place.
 
@@ -18,7 +17,7 @@ METADATA:
 
 ## Setup
 
-### Requirements:
+### Min. Requirements:
 Python 3
 
 ```
@@ -54,7 +53,7 @@ API available at: http://localhost:8000/api/memos/
 
 | Sl.No | Method Name | Method Type | Parameters | URL | 
 |-|:--:|--:|--:|--:|
-| 1 | add | POST | desc (Text), date (YYYY-MM-DD) and person (Text) | http://your_server_ip/api/memos/add |
+| 1 | add | POST | desc (Text), image (Optional) date (YYYY-MM-DD) and person (Text) | http://your_server_ip/api/memos/add |
 | 2.a | history | GET |  | http://your_server_ip/api/memos/history |
 | 2.b | history | GET | ordering=+-date | http://your_server_ip/api/memos/history/?ordering=-date |
 | 2.c | history | GET | search=name  | http://your_server_ip/api/memos/history/?search=name |
