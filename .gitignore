@@ -2,3 +2,4 @@ db.sqlite3
 __ pycache __
 *.pyc
 photos/
+.DS_Store
