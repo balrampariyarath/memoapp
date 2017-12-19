@@ -65,3 +65,9 @@ API available at: http://localhost:8000/api/memos/
 * Django - v2.0
 * djangorestframework - v3.1.2
 * Pillow - 2017.3
+
+## Screenshots
+
+![Add Memo](https://raw.githubusercontent.com/balrampariyarath/memoapp/master/screenshots/Add-Screen.png "Add Memo")
+![List All Memo](https://raw.githubusercontent.com/balrampariyarath/memoapp/master/screenshots/History-Screen.png "List All Memos")
+![List Memo Filters](https://raw.githubusercontent.com/balrampariyarath/memoapp/master/screenshots/SortAndSearchOptions%20-%20Screen.png "Filters")
