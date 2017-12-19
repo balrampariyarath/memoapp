@@ -39,7 +39,7 @@ python3 manage.py migrate
 python3 manage.py test
 
 # Run Server
-python3 manage.py test
+python3 manage.py runserver
 ```
 
 URL - http://localhost:8000/
